@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+    <title>Spotifer (tailwind)</title>
+</head>
+
+<body>
+
+    <div class="bg-gradient-to-b from-slate-700 via-slate-900 to-slate-950 fixed inset-0 -z-10">
+
+        <div class=" w-full text-white min-h-screen p-6">
+
+
+
+
+            <!-- ---------------------------ส่วนของ header--------------------------- -->
+            <div class=" flex flex-col items-center">
+                <h1 class="text-2xl m-2">My spotifer</h1>
+                <img class="w-[100px] rounded-full" src="https://picsum.photos/200" alt="">
+                <button class="bg-slate-700 mt-4 px-4 py-1.5 rounded-full">edite profile</button>
+            </div>
+
+
+
+
+            <!-- -------------------------------ส่วนตัวเลข--------------------------- -->
+            <div class="flex justify-around my-4">
+                <div class="text-center w-[100px]">
+                    <p>23</p>
+                    <p class="text-xs">PLAYLISTS</p>
+                </div>
+                <div class="text-center w-[100px]">
+                    <p>1500</p>
+                    <p class="text-xs">FOLLOWERS</p>
+                </div>
+                <div class="text-center w-[100px]">
+                    <p>45</p>
+                    <p class="text-xs">FOLLOWING</p>
+                </div>
+            </div>
+
+
+
+            <!-- ----------------------------ส่วน playlists-------------------------- -->
+            <h1 class="text-xl font-bold">Playlists</h1>
+
+            <div class="flex items-center mt-4">
+                <img class="w-[40px] rounded-md" src="https://picsum.photos/200" alt="">
+                <div class="w-full ml-4">
+                    <p>Album name</p>
+                    <p class="text-xs">100 likes</p>
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="flex items-center mt-4">
+                <img class="w-[40px] rounded-md" src="https://picsum.photos/200" alt="">
+                <div class="w-full ml-4">
+                    <p>Album name</p>
+                    <p class="text-xs">100 likes</p>
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="flex items-center mt-4">
+                <img class="w-[40px] rounded-md" src="https://picsum.photos/200" alt="">
+                <div class="w-full ml-4">
+                    <p>Album name</p>
+                    <p class="text-xs">100 likes</p>
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="flex items-center mt-4">
+                <img class="w-[40px] rounded-md" src="https://picsum.photos/200" alt="">
+                <div class="w-full ml-4">
+                    <p>Album name</p>
+                    <p class="text-xs">100 likes</p>
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <div class="flex justify-between mt-4">
+                <p>See all playlists</p>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+        </div>
+
+
+
+
+        <!-- -----------------------ส่วน footer---------------------------- -->
+        <div class="flex justify-around fixed bottom-0 w-full text-white py-4">
+            <div class="flex flex-col items-center">
+                <i class="fa-regular fa-house"></i>
+                <p>Home</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <p>Search</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <i class="fa-solid fa-bars"></i>
+                <p>Your libraly</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
